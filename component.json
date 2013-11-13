@@ -1,5 +1,5 @@
 {
-  "name": "theme-button",
+  "name": "aphrodite-button",
   "version": "0.0.1",
   "styles": ["index.css"],
   "images": ["images/arrow-white.svg"]
