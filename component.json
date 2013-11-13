@@ -1,0 +1,6 @@
+{
+  "name": "theme-button",
+  "version": "0.0.1",
+  "styles": ["index.css"],
+  "images": ["images/arrow-white.svg"]
+}

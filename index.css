@@ -1,0 +1,64 @@
+
+/**
+ * The main button style. Green by default with some
+ * modifiers available to tweak the styles
+ *
+ * .Button(.Button--arrow,.Button--outline)
+ */
+
+.Button {
+  transition: all 250ms linear;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #A6C776;
+  border: none;
+  padding: 1.0625em 1.25em;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  color: #F8F5F0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.Button:hover {
+  background-color: #83A552;
+}
+
+/**
+ * Adds a small arrow from SS Standard to the right
+ * of the button. The arrow will scale with the size
+ * of the button, so feel free to make it tiny.
+ */
+
+.Button--arrow {
+  padding-right: 2.1875em;
+  background-image: url("images/arrow-white.svg");
+  background-repeat: no-repeat;
+  background-position: right 1.25em center;
+  background-size: 0.65em;
+}
+
+.Button--arrow:after {
+  content: '';
+  display: block;
+}
+
+
+/**
+ * Alternate button style that is transparent
+ * and uses a green border. This is used on darker
+ * backgrounds as a secondary-level button
+ */
+
+.Button--outline {
+  background: none;
+  border: 1px solid #a6c776;
+}
+
+.Button--outline:hover {
+  background: #35372F;
+}
