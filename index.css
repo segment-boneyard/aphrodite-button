@@ -55,10 +55,19 @@
  */
 
 .Button--outline {
-  background: none;
-  border: 1px solid #a6c776;
+  background-color: transparent;
+  box-shadow: 0 0 0 1px #a6c776 inset;
 }
 
 .Button--outline:hover {
-  background: #35372F;
+  background-color: #35372F;
+}
+
+
+/**
+ * Smaller variant
+ */
+
+.Button--small {
+  font-size: 14px;
 }
