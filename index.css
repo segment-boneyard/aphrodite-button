@@ -71,3 +71,16 @@
 .Button--small {
   font-size: 14px;
 }
+
+/**
+ * Disabled
+ */
+
+.Button[disabled] {
+  opacity: 0.5;
+}
+
+.Button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px hsl(84, 42%, 84%);
+}
