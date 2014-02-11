@@ -1,6 +1,6 @@
 {
   "name": "aphrodite-button",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "styles": ["index.css"],
   "images": ["images/arrow-white.svg"]
 }

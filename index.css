@@ -28,6 +28,7 @@
   background-color: #83A552;
 }
 
+
 /**
  * Adds a small arrow from SS Standard to the right
  * of the button. The arrow will scale with the size
@@ -72,6 +73,7 @@
   font-size: 14px;
 }
 
+
 /**
  * Disabled
  */
@@ -80,7 +82,54 @@
   opacity: 0.5;
 }
 
+/**
+ * Focus
+ */
+
 .Button:focus {
   outline: none;
-  box-shadow: 0 0 0 2px hsl(84, 42%, 84%);
+}
+
+
+/**
+ * Danger. Used when clicking the button
+ * will do something important
+ */
+
+.Button--danger {
+  background-color: var(dark-red);
+}
+
+.Button--danger:hover {
+  background-color: var(red);
+}
+
+
+/**
+ * Tiny button to be used in lists and tables
+ */
+
+.Button--tiny {
+  font-size: 14px;
+  padding: .8em 1.25em;
+}
+
+
+/**
+ * Full-width button
+ */
+
+.Button--full {
+  width: 100%;
+}
+
+
+/**
+ * Disabled button often used
+ * in loading states
+ */
+
+.Button[disabled],
+.Button[disabled]:hover {
+  background: var(darker-sand);
 }
