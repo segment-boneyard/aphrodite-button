@@ -28,6 +28,10 @@
   background-color: #83A552;
 }
 
+.Button.hidden {
+  display: none;
+}
+
 
 /**
  * Adds a small arrow from SS Standard to the right
