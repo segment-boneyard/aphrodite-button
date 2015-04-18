@@ -10,7 +10,7 @@
   transition: all 250ms linear;
   border-radius: 4px;
   text-transform: uppercase;
-  background-color: #A6C776;
+  background-color: #5CCC5C;
   border: none;
   padding: 1.0625em 1.25em;
   line-height: 1;
@@ -25,7 +25,7 @@
 }
 
 .Button:hover {
-  background-color: #83A552;
+  background-color: #45A13F;
 }
 
 .Button.hidden {
@@ -61,7 +61,7 @@
 
 .Button--outline {
   background-color: transparent;
-  box-shadow: 0 0 0 1px #a6c776 inset;
+  box-shadow: 0 0 0 1px #5CCC5C inset;
 }
 
 .Button--outline:hover {
